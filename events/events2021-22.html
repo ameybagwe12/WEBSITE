@@ -9,17 +9,18 @@
   <link rel="icon" href="../images/nss_logo.png" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="icon" href="images/nss_logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="../styles/styles_animation.css">
   <link rel="stylesheet" href="../styles/styles.css">
+  <link rel="stylesheet" href="../styles/styles_animation.css">
   <link rel="stylesheet" href="./events_style.css">
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  
   <link
     href="https://fonts.googleapis.com/css2?family=Allerta&family=Kanit:wght@300&family=Lobster&family=Open+Sans:wght@400;600&display=swap"
     rel="stylesheet">
   <title>NSS-Fr.Crce</title>
 </head>
-
-<body>
+<body background-color="rgb(78, 4, 75)">
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="div-logo container-fluid">
@@ -69,239 +70,285 @@
       </div>
     </nav>
   </header>
-<main>
-  <main style="margin-bottom: 50px;">
-    <h1 class="event-head mt-4 slideanim slide">Events</h1>
-    <hr class="style-two">
-    <div class="container">
-    <div class="row row-cols-1 row-cols-md-3 g-4 mt-4 slideanim slide">
-      <div class="col" id="el">
-        <div class="card">
-          <img src="./eve/orien.png" height="410px" class="card-img-top" alt="...">
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">NSS Orientation</li>
-            <li class="list-group-item">Date - 21th August 2021</li>
-          </ul>      
-        </div>
-      </div>
-      <div class="col" id="el">
-        <div class="card">
-          <img src="./eve/cardi.png" class="card-img-top" alt="..." height="415">
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">cardiac session</li>
-            <li class="list-group-item">Date - 26th August 2021</li>
-          </ul>      
-        </div>
-      </div>
-      <div class="col" id="el">
-        <div class="card">
-          <img src="./eve/teach.PNG" class="card-img-top" alt="..." height="415">
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Teachers' Day</li>
-            <li class="list-group-item">Date - 4th September 2021</li>
-          </ul>    
-        </div>
-      </div>
+  <main>
+
+  <section class="cd-timeline js-cd-timeline">
+    <div class="container max-width-lg cd-timeline__container">
+      <div class="cd-timeline__block">
+        <div class="cd-timeline__img cd-timeline__img--picture">
+          <img src="assets/img/cd-icon-picture.svg" alt="Picture">
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content text-component">
+          <h2>NSS Orientation</h2>
+          <p class="color-contrast-medium"><img src="./eve/orien.png" height="410px" class="card-img-top" alt="..."></p>
+
+          <div class="flex justify-between items-center">
+            <p style="text-align:left"><span class="cd-timeline__date">21th August 2021</span>
+            
+          </div>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+
+      <div class="cd-timeline__block">
+        <div class="cd-timeline__img cd-timeline__img--picture">
+          <img src="assets/img/cd-icon-picture.svg" alt="Movie">
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content text-component">
+          <h2>Teachers' Day</h2>
+          <p class="color-contrast-medium"><img src="./eve/teach.PNG" class="card-img-top" alt="..."></p>
+          
+          <div class="flex justify-between items-center">
+            <span class="cd-timeline__date">4th September 2021</span>
+            
+          </div>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+
+      <div class="cd-timeline__block">
+        <div class="cd-timeline__img cd-timeline__img--picture">
+          <img src="assets/img/cd-icon-picture.svg" alt="Picture">
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content text-component">
+          <h2>cardiac session</h2>
+          <p class="color-contrast-medium"><img src="./eve/cardi.png" class="card-img-top" alt="..."></p>
+
+          <div class="flex justify-between items-center">
+            <p style="text-align:left"><span class="cd-timeline__date">26th August 2021</span></p>
+            
+          </div>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+      <div class="cd-timeline__block">
+        <div class="cd-timeline__img cd-timeline__img--picture">
+          <img src="assets/img/cd-icon-picture.svg" alt="Picture">
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content text-component">
+          <h2>Diwali Campaign</h2>
+          <p class="color-contrast-medium"><img src="./eve/diw.PNG" class="card-img-top" alt="..."></p>
+
+          <div class="flex justify-between items-center">
+            <span class="cd-timeline__date">4th November 2021</span>
+            
+          </div>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+      <div class="cd-timeline__block">
+        <div class="cd-timeline__img cd-timeline__img--picture">
+          <img src="assets/img/cd-icon-picture.svg" alt="Picture">
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content text-component">
+          <h2>Vrudhashram Visit</h2>
+          <p class="color-contrast-medium"><img src="./eve/vru.PNG" class="card-img-top" alt="..."></p>
+
+          <div class="flex justify-between items-center">
+            <p style="text-align:left"><span class="cd-timeline__date">13th November 2021</span></p>
+            
+          </div>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+      <div class="cd-timeline__block">
+        <div class="cd-timeline__img cd-timeline__img--picture">
+          <img src="assets/img/cd-icon-picture.svg" alt="Picture">
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content text-component">
+          <h2>Covid 19 Documentary</h2>
+          <p class="color-contrast-medium"><img src="./eve/cov.PNG" class="card-img-top" alt="..."></p>
+
+          <div class="flex justify-between items-center">
+            <span class="cd-timeline__date">18th November 2021</span>
+            
+          </div>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+      <div class="cd-timeline__block">
+        <div class="cd-timeline__img cd-timeline__img--picture">
+          <img src="assets/img/cd-icon-picture.svg" alt="Picture">
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content text-component">
+          <h2>National Park</h2>
+          <p class="color-contrast-medium"><img src="./eve/nat.PNG" class="card-img-top" alt="..."></p>
+
+          <div class="flex justify-between items-center">
+            <p style="text-align:left"><span class="cd-timeline__date">11th December 2021</span></p>
+            
+          </div>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+      <div class="cd-timeline__block">
+        <div class="cd-timeline__img cd-timeline__img--picture">
+          <img src="assets/img/cd-icon-picture.svg" alt="Picture">
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content text-component">
+          <h2>Sustanable Living</h2>
+          <p class="color-contrast-medium"><img src="./eve/ear.PNG" class="card-img-top" alt="..."></p>
+
+          <div class="flex justify-between items-center">
+            <span class="cd-timeline__date">17th December 2021</span>
+            
+          </div>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+      <div class="cd-timeline__block">
+        <div class="cd-timeline__img cd-timeline__img--picture">
+          <img src="assets/img/cd-icon-picture.svg" alt="Picture">
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content text-component">
+          <h2>Say No To Drugs</h2>
+          <p class="color-contrast-medium"><img src="./eve/drog.PNG" class="card-img-top" alt="..."></p>
+
+          <div class="flex justify-between items-center">
+            <p style="text-align:left"><span class="cd-timeline__date">7th January 2022</span></p>
+            
+          </div>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+      <div class="cd-timeline__block">
+        <div class="cd-timeline__img cd-timeline__img--picture">
+          <img src="assets/img/cd-icon-picture.svg" alt="Picture">
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content text-component">
+          <h2>Importance Of Mangrooves</h2>
+          <p class="color-contrast-medium"><img src="./eve/imp.PNG" class="card-img-top" alt="..."></p>
+
+          <div class="flex justify-between items-center">
+            <span class="cd-timeline__date">19th January 2022</span>
+            
+          </div>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+      <div class="cd-timeline__block">
+        <div class="cd-timeline__img cd-timeline__img--picture">
+          <img src="assets/img/cd-icon-picture.svg" alt="Picture">
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content text-component">
+          <h2>Article Writing</h2>
+          <p class="color-contrast-medium"><img src="./eve/art.PNG" class="card-img-top" alt="..."></p>
+
+          <div class="flex justify-between items-center">
+            <p style="text-align:left"><span class="cd-timeline__date">20th January 2022</span></p>
+            
+          </div>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+      <div class="cd-timeline__block">
+        <div class="cd-timeline__img cd-timeline__img--picture">
+          <img src="assets/img/cd-icon-picture.svg" alt="Picture">
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content text-component">
+          <h2>Tree Plantation</h2>
+          <p class="color-contrast-medium"><img src="./eve/tre.PNG" class="card-img-top" alt="..."></p>
+
+          <div class="flex justify-between items-center">
+            <span class="cd-timeline__date">15th February 2022</span>
+            
+          </div>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+      <div class="cd-timeline__block">
+        <div class="cd-timeline__img cd-timeline__img--picture">
+          <img src="assets/img/cd-icon-picture.svg" alt="Picture">
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content text-component">
+          <h2>Euphoria Stairs</h2>
+          <p class="color-contrast-medium"><img src="./eve/eup.PNG" class="card-img-top" alt="..."></p>
+
+          <div class="flex justify-between items-center">
+            <p style="text-align:left"><span class="cd-timeline__date">6th February 2022</span></p>
+            
+          </div>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
       
+
+      
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+    </div>
+  </section> <!-- cd-timeline -->
+</main>
+
+<footer class="footer-distributed">
+
+  <div class="footer-left">
+
+    <h4 class="footer-company-name"><a class="navbar-brand" href="./index.html"><img src="../images/nss_logo.png" width="50px" height="50px"></a>National Service Scheme</h4>
+    <p class="footer-company-name mt-5"><a class="navbar-brand" href="http://frcrce.ac.in/"><img src="../images/crce_logo.png" width="100px" height="auto"></a>Fr. Conceicao Rodrigues College Of Enginnering</a></p>
+  </div>
+
+  <div class="footer-center">
+
+    <div>
+      <a href="https://www.google.com/maps/place/Fr.+Conceicao+Rodrigues+College+of+Engineering/@19.044333,72.8203705,15z/data=!4m5!3m4!1s0x0:0x111b63353dbbce01!8m2!3d19.044333!4d72.8203705"><i class="fa fa-map-marker"></i></a>
+      <p><a href="https://www.google.com/maps/place/Fr.+Conceicao+Rodrigues+College+of+Engineering/@19.044333,72.8203705,15z/data=!4m5!3m4!1s0x0:0x111b63353dbbce01!8m2!3d19.044333!4d72.8203705"><span>Fr. Conceicao Rodrigues College of Engineering,</span><span>Fr. Agnel Ashram, Bandstand Promenade,</span><span>Mount Mary, Bandra West, Mumbai, Maharashtra</span></a></p>
+    </div>
+
+    <div class="mt-3">
+      <i class="fa fa-phone"></i>
+        <p>+91 90046 49658 - Mohit Pansare(President)</p>
+        <p style="margin-left: 75px;">+91 81044 71958 - Himanshu Bhundere(Doc. Head)</p>
+    </div>
+
+    <div class="mt-3">
+      <a href="mailto:crce.nss@gmail.com "><i class="fa fa-envelope"></i></a>
+      <p><a href="mailto:crce.nss@gmail.com ">crce.nss@gmail.com</a></p>
     </div>
   </div>
-  </main>
-  <!--2nd-->
-  <main>
-    <main style="margin-bottom: 50px;">
-      
-      
-      <div class="container">
-      <div class="row row-cols-1 row-cols-md-3 g-4 mt-4 slideanim slide">
-        <div class="col" id="el">
-          <div class="card">
-            <img src="./eve/diw.PNG" height="410px" class="card-img-top" alt="...">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Diwali Campaign</li>
-              <li class="list-group-item">Date - 4th November 2021</li>
-            </ul>      
-          </div>
-        </div>
-        <div class="col" id="el">
-          <div class="card">
-            <img src="./eve/vru.PNG" class="card-img-top" alt="..." height="415">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Vrudhashram Visit</li>
-              <li class="list-group-item">Date - 13th November 2021</li>
-            </ul>     
-          </div>
-        </div>
-        <div class="col" id="el">
-          <div class="card">
-            <img src="./eve/cov.PNG" class="card-img-top" alt="..." height="415">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Covid 19 Documentary</li>
-              <li class="list-group-item">Date - 18th November 2021</li>
-            </ul>      
-          </div>
-        </div>
-      </div>
+
+  <div class="footer-right">
+
+    <h4 style="color: lightseagreen; margin-left: 15px;">
+      Follow Us On
+    </h4>
+
+    <div class="footer-icons">
+
+      <a href="https://www.facebook.com/NssCrce/"><i class="fa fa-facebook"></i></a>
+      <a href="https://twitter.com/nssCRCE"><i class="fa fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/nss-crce-0a44951b0/"><i class="fa fa-linkedin"></i></a>
+      <a href="https://www.youtube.com/channel/UCapmNAV8uTIv_W3tj8rdJSQ"><i class="fa fa-youtube"></i></a>
+      <a href="https://www.instagram.com/nss.crce/"><i class="fa fa-instagram"></i></a>
+
     </div>
-    </main>
-    <main>
-      <main style="margin-bottom: 50px;">
-        
-        
-        <div class="container">
-        <div class="row row-cols-1 row-cols-md-3 g-4 mt-4 slideanim slide">
-          <div class="col" id="el">
-            <div class="card">
-              <img src="./eve/nat.PNG" height="410px" class="card-img-top" alt="...">
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">National Park</li>
-                <li class="list-group-item">Date - 11th December 2021</li>
-              </ul>      
-            </div>
-          </div>
-          <div class="col" id="el">
-            <div class="card">
-              <img src="./eve/ear.PNG" class="card-img-top" alt="..." height="415">
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Sustanable Living</li>
-                <li class="list-group-item">Date - 17th December 2021</li>
-              </ul>    
-            </div>
-          </div>
-          <div class="col" id="el">
-            <div class="card">
-              <img src="./eve/drog.PNG" class="card-img-top" alt="..." height="415">
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Say No To Drugs</li>
-                <li class="list-group-item">Date - 7th January 2022</li>
-              </ul>      
-            </div>
-          </div>
-        </div>
-      </div>
-      </main>
-      <!--3rd-->
-      <main>
-        <main style="margin-bottom: 50px;">
-          
-          
-          <div class="container">
-          <div class="row row-cols-1 row-cols-md-3 g-4 mt-4 slideanim slide">
-            <div class="col" id="el">
-              <div class="card">
-                <img src="./eve/imp.PNG" height="410px" class="card-img-top" alt="...">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Importance Of Mangrooves</li>
-                  <li class="list-group-item">Date - 19th January 2022</li>
-                </ul>      
-              </div>
-            </div>
-            <div class="col" id="el">
-              <div class="card">
-                <img src="./eve/art.PNG" class="card-img-top" alt="..." height="415">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Article Writing</li>
-                  <li class="list-group-item">Date - 20th January 2022</li>
-                </ul>    
-              </div>
-            </div>
-            <div class="col" id="el">
-              <div class="card">
-                <img src="./eve/tre.PNG" class="card-img-top" alt="..." height="415">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Tree Plantation</li>
-                  <li class="list-group-item">Date - 15th February 2022</li>
-                </ul>      
-              </div>
-            </div>
-          </div>
-        </div>
-        </main>
-        <!--4th-->>
-        <main>
-          <main style="margin-bottom: 50px;">
-            
-            
-            <div class="container">
-            <div class="row row-cols-1 row-cols-md-3 g-4 mt-4 slideanim slide">
-              <div class="col" id="el">
-                <div class="card">
-                  <img src="./eve/eup.PNG" height="410px" class="card-img-top" alt="...">
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Euphoria Stairs</li>
-                    <li class="list-group-item">Date - 6th February 2022</li>
-                  </ul>      
-                </div>
-              </div>
-              
-          </main>
-  
-  <footer class="footer-distributed">
-  
-    <div class="footer-left">
-  
-      <h4 class="footer-company-name"><a class="navbar-brand" href="./index.html"><img src="../images/nss_logo.png" width="50px" height="50px"></a>National Service Scheme</h4>
-      <p class="footer-company-name mt-5"><a class="navbar-brand" href="http://frcrce.ac.in/"><img src="../images/crce_logo.png" width="100px" height="auto"></a>Fr. Conceicao Rodrigues College Of Enginnering</a></p>
-    </div>
-  
-    <div class="footer-center">
-  
-      <div>
-        <a href="https://www.google.com/maps/place/Fr.+Conceicao+Rodrigues+College+of+Engineering/@19.044333,72.8203705,15z/data=!4m5!3m4!1s0x0:0x111b63353dbbce01!8m2!3d19.044333!4d72.8203705"><i class="fa fa-map-marker"></i></a>
-        <p><a href="https://www.google.com/maps/place/Fr.+Conceicao+Rodrigues+College+of+Engineering/@19.044333,72.8203705,15z/data=!4m5!3m4!1s0x0:0x111b63353dbbce01!8m2!3d19.044333!4d72.8203705"><span>Fr. Conceicao Rodrigues College of Engineering,</span><span>Fr. Agnel Ashram, Bandstand Promenade,</span><span>Mount Mary, Bandra West, Mumbai, Maharashtra</span></a></p>
-      </div>
-  
-      <div class="mt-3">
-        <i class="fa fa-phone"></i>
-          <p>+91 90046 49658 - Mohit Pansare(President)</p>
-          <p style="margin-left: 75px;">+91 81044 71958 - Himanshu Bhundere(Doc. Head)</p>
-      </div>
-  
-      <div class="mt-3">
-        <a href="mailto:crce.nss@gmail.com "><i class="fa fa-envelope"></i></a>
-        <p><a href="mailto:crce.nss@gmail.com ">crce.nss@gmail.com</a></p>
-      </div>
-    </div>
-  
-    <div class="footer-right">
-  
-      <h4 style="color: lightseagreen; margin-left: 15px;">
-        Follow Us On
-      </h4>
-  
-      <div class="footer-icons">
-  
-        <a href="https://www.facebook.com/NssCrce/"><i class="fa fa-facebook"></i></a>
-        <a href="https://twitter.com/nssCRCE"><i class="fa fa-twitter"></i></a>
-        <a href="https://www.linkedin.com/in/nss-crce-0a44951b0/"><i class="fa fa-linkedin"></i></a>
-        <a href="https://www.youtube.com/channel/UCapmNAV8uTIv_W3tj8rdJSQ"><i class="fa fa-youtube"></i></a>
-        <a href="https://www.instagram.com/nss.crce/"><i class="fa fa-instagram"></i></a>
-  
-      </div>
-  
-      <button type="button" class="btn btn-success btn-floating btn-lg" id="btn-back-to-top">
-        <i class="fa fa-arrow-up"></i>
-      </button>
-  
-    </div>
-    <div class="container footDes" style="display: flex; justify-content: center;">
-      <h5 class="h4Des" id="h4Des">Designed By</h5>
-    </div>
-    <div class="container footDes" style="display: flex; justify-content: center;">
-      <h5 class="h4Des" id="h4Des">Amey Bagwe & Saahil Fernandes</h5>
-    </div>
-    <div class="container cpy" style="display: flex; justify-content: center;">
-      <h6 class="footer-company-name">Copyright © 2022 NSS-CRCE. All Rights Reserved.</h6>
-    </div>
-  
-  </footer>
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-    <script src="../btn-top.js"></script>
-    <script src="../float-panel.js"></script>
-    <script src="https://kit.fontawesome.com/95e5247768.js" crossorigin="anonymous"></script>
-  
-  </body>
-  
-  </html>
+
+    <button type="button" class="btn btn-success btn-floating btn-lg" id="btn-back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </button>
+
+  </div>
+  <div class="container footDes" style="display: flex; justify-content: center;">
+    <h5 class="h4Des" id="h4Des">Designed By</h5>
+  </div>
+  <div class="container footDes" style="display: flex; justify-content: center;">
+    <h5 class="h4Des" id="h4Des">Amey Bagwe & Saahil Fernandes</h5>
+  </div>
+  <div class="container cpy" style="display: flex; justify-content: center;">
+    <h6 class="footer-company-name">Copyright © 2022 NSS-CRCE. All Rights Reserved.</h6>
+  </div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+  crossorigin="anonymous"></script>
+  <script src="../btn-top.js"></script>
+  <script src="../float-panel.js"></script>
+  <script src="https://kit.fontawesome.com/95e5247768.js" crossorigin="anonymous"></script>
+  <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>
