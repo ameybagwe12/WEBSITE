@@ -1,73 +1,151 @@
+
+.timeline_area {
+  position: relative;
+  z-index: 1;
+}
+
 .event-head {
 	font-family: 'Lobster';
 	color: aliceblue;
 	display: flex;
 	justify-content: center;
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
-#el{
-    color: #ffa260;
-    border: 2px solid;
-    transition: color 0.25s,border-color 0.25s,box-shadow 0.25s,transform 0.25s;
+p {
+  color: aliceblue;
 }
 
-#el:hover{
-    border-color: #f1ff5c;
-    border-radius: 5px;
-    /* height: 100px;
-    width: 300px; */
-    padding: 1rem;
-    margin: 5px auto;
-    /* background-color: rgb(235, 124, 20); */
-    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c; 
-    transform: translateY(-0.25em);
-}
-.list-group {
-    background-color: rgb(78, 4, 75);
-}
-.list-group-item {
-    background-color: rgb(78, 4, 75);
-    font-family: 'Allerta';
-    color: aliceblue;
+h6{
+  color: aliceblue;
 }
 
-.flip-card {
-    background-color: transparent;
-    width: 300px;
-    height: 300px;
-    perspective: 1000px;
+.single-timeline-area {
+  position: relative;
+  z-index: 1;
+  padding-left: 180px;
+}
+@media only screen and (max-width: 575px) {
+  .single-timeline-area {
+      padding-left: 100px;
   }
-  
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.single-timeline-area .timeline-date {
+  position: absolute;
+  width: 180px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -ms-grid-row-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding-right: 60px;
+}
+@media only screen and (max-width: 575px) {
+  .single-timeline-area .timeline-date {
+      width: 100px;
   }
-  
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
+}
+.single-timeline-area .timeline-date::after {
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  content: "";
+  background-color: #ebebeb;
+  top: 0;
+  right: 30px;
+  z-index: 1;
+}
+.single-timeline-area .timeline-date::before {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background-color: #f1c40f;
+  content: "";
+  top: 50%;
+  right: 26px;
+  z-index: 5;
+  margin-top: -5.5px;
+}
+.single-timeline-area .timeline-date p {
+  margin-bottom: 0;
+  color: aliceblue;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.single-timeline-area .single-timeline-content {
+  position: relative;
+  z-index: 1;
+  padding: 30px 30px 25px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  -webkit-box-shadow: 0 0.25rem 1rem 0 rgba(47, 91, 234, 0.125);
+  box-shadow: 0 0.25rem 1rem 0 rgba(47, 91, 234, 0.125);
+  border: 1px solid #ebebeb;
+}
+@media only screen and (max-width: 575px) {
+  .single-timeline-area .single-timeline-content {
+      padding: 20px;
   }
-  
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  
-  .flip-card-front {
-    background-color: #bbb;
-    color: black;
-  }
-  
-  .flip-card-back {
-    background-color: #2980b9;
-    color: white;
-    transform: rotateY(180deg);
-  }
+}
+.single-timeline-area .single-timeline-content .timeline-icon {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  width: 30px;
+  height: 30px;
+  background-color: #f1c40f;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 30px;
+  flex: 0 0 30px;
+  text-align: center;
+  max-width: 30px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.single-timeline-area .single-timeline-content .timeline-icon i {
+  color: #ffffff;
+  line-height: 30px;
+}
+.single-timeline-area .single-timeline-content .timeline-text h6 {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+.single-timeline-area .single-timeline-content .timeline-text p {
+  font-size: 13px;
+  margin-bottom: 0;
+}
+.single-timeline-area .single-timeline-content:hover .timeline-icon,
+.single-timeline-area .single-timeline-content:focus .timeline-icon {
+  background-color: aliceblue;
+}
+.single-timeline-area .single-timeline-content:hover .timeline-text h6,
+.single-timeline-area .single-timeline-content:focus .timeline-text h6 {
+  color: white;
+}
+
+.eve{
+  color: #ffa260;
+  border: 2px solid;
+  transition: color 0.25s,border-color 0.25s,box-shadow 0.25s;
+}
+
+.eve:hover{
+  border-color: #db0909;
+  background-color: #f710e7;
+  border-radius: 5px;
+  /* height: 100px;
+  width: 300px; */
+  /* background-color: rgb(235, 124, 20); */
+  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c; 
+}
