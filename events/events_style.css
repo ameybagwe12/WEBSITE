@@ -33,3 +33,11 @@
   display: flex;
   justify-content: space-around;
 }
+
+.list-group-item {
+  background-color: orange;
+}
+
+.link_post {
+  color: black;
+}
