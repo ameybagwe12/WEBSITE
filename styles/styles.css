@@ -568,6 +568,9 @@ img {
   margin-top: 50px;
 }
 
+@media (min-width: 1120px) {
+  
+
 .titlewrapper {
     position: absolute;
     left: 50%;
@@ -575,4 +578,5 @@ img {
     -webkit-transform:translateX(-50%);
     transform:translateX(-50%);
     max-width: 600px;
+}
 }
