@@ -567,3 +567,12 @@ img {
 .footDes {
   margin-top: 50px;
 }
+
+.titlewrapper {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    -webkit-transform:translateX(-50%);
+    transform:translateX(-50%);
+    max-width: 600px;
+}
