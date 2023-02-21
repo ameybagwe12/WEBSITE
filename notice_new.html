@@ -84,8 +84,6 @@
   Check Your Volunteering Data
 </button>
 
-<div id="div1"></div>
-
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -98,19 +96,7 @@
                   <div class="mb-3">
             <input type="text" id="textSerial" class="form-control formInput" id="exampleInputPassword1">
             <button type="submit" id="btnSerial" class="btn-primary mt-3">Submit</button>
-            <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col">Date</th>
-                  <th scope="col">MaxHours</th>
-                  <th scope="col">Name</th>
-                  <th scope="col">Attendance</th>
-                </tr>
-              </thead>
-              <tbody id="data-output">
-                
-              </tbody>
-            </table>
+      
           </div>
       </div>
       <div class="modal-footer">
@@ -119,6 +105,20 @@
     </div>
   </div>
 </div>
+
+    <table class="table mt-3">
+      <thead>
+        <tr>
+          <th scope="col">Date</th>
+          <th scope="col">MaxHours</th>
+          <th scope="col">Name</th>
+          <th scope="col">Attendance</th>
+        </tr>
+      </thead>
+      <tbody id="data-output">
+        
+      </tbody>
+    </table>
 </main>
 
 <footer class="footer-distributed">
