@@ -8,7 +8,7 @@ btnSerial.onclick = () => {
 
   if (serialInp.value == "") {
     alert("please enter the serial number");
-  } else if (serialNo < 1 || serialNo > 100) {
+  } else if (serialNo < 1 || serialNo > 100 || !isNaN(serialNo)) {
     alert("please enter valid serial number");
   } else {
     const Hoursdata = [
