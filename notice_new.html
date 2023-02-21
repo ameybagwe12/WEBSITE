@@ -78,6 +78,47 @@
   <h1 class="rep-head mt-4 slideanim slide">Camp2022-2023 Details</h1>
   <hr class="style-two">
   <a  href="./PDF/22-23_CAMP_Notice02_1111.pdf"> <button class="btn-ann" style="width: 100%; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px;cursor: pointer;border-radius:7px;">Camp Fees Breakdown</button></a>
+  <hr class="style-two">
+  <!-- Button trigger modal -->
+<button type="button btn-ann" class="btnVol" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Check Your Volunteering Data
+</button>
+
+<div id="div1"></div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Enter Nss Serial Number</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+                  <div class="mb-3">
+            <input type="text" id="textSerial" class="form-control formInput" id="exampleInputPassword1">
+            <button type="submit" id="btnSerial" class="btn-primary mt-3">Submit</button>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Date</th>
+                  <th scope="col">MaxHours</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Attendance</th>
+                </tr>
+              </thead>
+              <tbody id="data-output">
+                
+              </tbody>
+            </table>
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 </main>
 
 <footer class="footer-distributed">
@@ -147,6 +188,9 @@
 
   <script src="./float-panel.js"></script>
   <script src="./btn-top.js"></script>
+  <script src="./serialData.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://kit.fontawesome.com/95e5247768.js" crossorigin="anonymous"></script>
 
 </body>
