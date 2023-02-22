@@ -7,6 +7,23 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.btnVol {
+  background: none;
+  color: #ffa260;
+  border: 2px solid;
+  padding: 1em 2em;
+  font-size: 1em;
+  transition: color 0.25s,border-color 0.25s,box-shadow 0.25s,transform 0.25s;
+}
+.btnVol:hover{
+  border-color: #f1ff5c;
+  color: white;
+  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c; /*0 for x offset 0.5 for y offset
+  0.5 for blur -0.4 for spread radius */
+  transform: translateY(-0.25em);
+  cursor: pointer;
+}
+
 .rep-head {
   color: #ffffff;
   font-family: 'Lobster';
@@ -22,7 +39,7 @@ header nav {
 }
 
 .main-ul{
-    margin: 0 30px;
+    margin-left: 0 30px;
     transition: color 0.25s;
 }
 
