@@ -3440,10 +3440,16 @@ btnSerial.onclick = () => {
 
     for (let data of Hoursdata) {
       out += `<tr>
-              <td>${data.DATE}</td>
-              <td>${data.MAXHOURS}</td>
+              <td>${data.DATE == null ? "TOTAL" : data.DATE}</td>
+              <td>${
+                data.MAXHOURS == null ? "Not Mentioned" : data.MAXHOURS
+              }</td>
               <td>${data.NAMEOFEVENT}</td>
-              <td>${data[`${serialNo}`]}</td>
+              <td>${
+                data[`${serialNo}`] == null
+                  ? "Not Attendend"
+                  : data[`${serialNo}`]
+              }</td>
             </tr>`;
     }
     placeholder.innerHTML = out;
