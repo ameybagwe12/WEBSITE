@@ -842,7 +842,7 @@ btnSerial.onclick = () => {
         99: null,
         100: null,
         NSSCRCESERIALNUMBER: "19/11/22",
-        "": "AI-DS AWARENESS QUIZ",
+        "": "AIDS AWARENESS QUIZ",
       },
       {
         1: null,
@@ -4602,6 +4602,7 @@ btnSerial.onclick = () => {
                 data[`${serialNo}`] == null
                   ? "Not Attendend"
                   : data[`${serialNo}`]
+                // data[`${serialNo}`] !== "-" ? :  data[""].style.color =
               }</td>
             </tr>`;
     }
