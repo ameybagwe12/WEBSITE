@@ -53,8 +53,12 @@ tr:nth-child(4){
   tr:nth-child(30){
     background-color: #ee963e;
   }
-  tr:nth-child(38){
+  tr:nth-child(40){
     background-color: #ee963e;
+  }
+
+  tr:nth-child(2){
+    background-color: #ee3ec2;
   }
 
 
@@ -64,7 +68,7 @@ tr:nth-child(4){
   tr:nth-child(29){
     background-color: #ff6060;
   }
-  tr:nth-child(37){
+  tr:nth-child(39){
     background-color: #ff6060;
   }
   tr:nth-child(44){
