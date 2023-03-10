@@ -111,7 +111,7 @@ btnSerial.onclick = () => {
         94: null,
         95: null,
         NSSCRCESERIALNUMBER: "DATE",
-        "": "EVENT NAME",
+        "": "UNIVERSITY BASED PROJECTS",
         100: null,
       },
       {
@@ -672,7 +672,7 @@ btnSerial.onclick = () => {
         94: null,
         95: null,
         NSSCRCESERIALNUMBER: "DATE",
-        "": "EVENT NAME",
+        "": "COLLEGE BASED EVENTS",
         100: null,
       },
       {
@@ -1437,7 +1437,7 @@ btnSerial.onclick = () => {
         94: null,
         95: null,
         NSSCRCESERIALNUMBER: "DATE",
-        "": "EVENT NAME",
+        "": "AREA BASED PROJECT 2",
         100: null,
       },
       {
@@ -1947,7 +1947,7 @@ btnSerial.onclick = () => {
         94: null,
         95: null,
         NSSCRCESERIALNUMBER: "DATE",
-        "": "EVENT NAME",
+        "": "AREA BASED PROJECT 1",
         100: null,
       },
       {
