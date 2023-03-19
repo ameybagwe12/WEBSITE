@@ -6,11 +6,17 @@ btnSerial.onclick = () => {
   let placeholder = document.querySelector("#data-output");
   let out = "";
 
+  serialArr = [
+    1, 5, 10, 11, 12, 15, 17, 18, 20, 26, 27, 30, 31, 34, 35, 36, 37, 39, 41,
+    43, 44, 47, 48, 49, 50, 53, 54, 55, 56, 58, 59, 60, 61, 62, 64, 65, 66, 70,
+    71, 72, 73, 74, 75, 77, 79, 83, 85, 86, 89, 90, 91, 92, 94, 95, 96, 98, 100,
+  ];
+
   if (serialInp.value == "") {
     alert("please enter the serial number");
   } else if (serialNo < 1 || serialNo > 100 || isNaN(serialNo)) {
     alert("please enter valid serial number");
-  } else {
+  } else if (serialArr.includes(serialNo)) {
     const Hoursdata = [
       {
         1: "Jerry Jacob",
